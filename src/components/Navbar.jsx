@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import logo2 from "../images/logo2.png"
+import logo2 from "../images/logo2.jpeg"
 
 const Navbar = () => {
 
