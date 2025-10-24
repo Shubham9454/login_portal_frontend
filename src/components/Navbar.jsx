@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-1 text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
         <Link to="/" className="flex">
-          <img src="" alt="" />
+          <img src="" alt="" className="h-12 w-12 rounded-full" />
           Login Portal
         </Link>
       </div>
