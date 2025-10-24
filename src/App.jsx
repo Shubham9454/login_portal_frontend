@@ -3,6 +3,7 @@ import Body from "./components/Body";
 import Login from "./pages/Login";
 import SignUp from "./pages/Signup";
 import store from "./utils/store";
+import { Provider } from "react-redux";
 
 function App() {
   return (
