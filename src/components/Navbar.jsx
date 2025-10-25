@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-1 text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
         <Link to="/" className="flex">
-          <img src="" alt="" className="h-12 w-12 rounded-full" />
+          <img src="null" alt="" className="" />
           Login Portal
         </Link>
       </div>
@@ -24,13 +24,13 @@ const Navbar = () => {
           <>
             <Link
               to="/login"
-              className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105 font-medium shadow-lg"
+              className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105 font-medium shadow-lg mx-2"
             >
               Login
             </Link>
             <Link
               to="/signup"
-              className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105 font-medium shadow-lg"
+              className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all transform hover:scale-105 font-medium shadow-lg mx-2"
             >
               Create Account
             </Link>
