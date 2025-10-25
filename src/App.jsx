@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Body from "./components/Body";
-import Login from "./pages/Login";
-import SignUp from "./pages/Signup";
+import Login from "./pages/Auth/Login";
 import store from "./utils/store";
 import { Provider } from "react-redux";
+import SignUp from "./pages/Auth/SignUp";
 
 function App() {
   return (
