@@ -29,10 +29,10 @@ const SignUp = () => {
         { withCredentials: true }
       );
 
-      dispatch(addUser(res.data.data));
-      navigate("/");
+      return navigate("/login");
+      
     } catch (err) {
-      setError(err?.response?.data || "Something went wrong");
+      setError(err?.response?.data?.error || "Something went wrong");
     }
   };
 
